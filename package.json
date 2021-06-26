@@ -1,0 +1,28 @@
+{
+  "name": "nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YanaGuzienko/CLI.git"
+  },
+  "author": "YANA",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/YanaGuzienko/CLI/issues"
+  },
+  "homepage": "https://github.com/YanaGuzienko/CLI#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  },
+  "dependencies": {
+    "shortid": "^2.2.16",
+    "yargs": "^17.0.1"
+  }
+}
